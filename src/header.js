@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import React from "react";
+import reactRouterDom from "react-router-dom";
 function header(props){
     return(
     <Head>
@@ -7,8 +8,8 @@ function header(props){
             <img src="./images/logo2.png" alt=""/>
         </Logo>
         <Menu>
-            <a>Home </a>
-            <a>About Me </a>
+            <Link to="/">Home </Link>
+            <Link to="/About">About Me </a>
             <a>My Projects </a>
             <a>Contact </a>
         </Menu>
