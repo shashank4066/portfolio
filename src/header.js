@@ -1,19 +1,24 @@
 import styled from "styled-components";
 import React from "react";
-import reactRouterDom from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import About from "./About";
 function header(props){
     return(
+        <BrowserRouter>
+        <Routes>
     <Head>
         <Logo>
             <img src="./images/logo2.png" alt=""/>
         </Logo>
         <Menu>
-            <Link to="/">Home </Link>
-            <Link to="/About">About Me </a>
+            <Link path="/" element={<Header/>}>Home </Link>
+            <Link path="/About" element={<About/>}>About Me </Link>
             <a>My Projects </a>
             <a>Contact </a>
         </Menu>
         </Head>
+        </Routes>
+        </BrowserRouter>
     );
 }
 
