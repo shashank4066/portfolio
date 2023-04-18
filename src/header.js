@@ -7,7 +7,7 @@ function Header(props){
             <img src="/logo12.png" alt=""/>
             </Logo>
             <Menu>
-            <a href="info.js">Home</a>
+            <a path="#">Home</a>
             <a href="#">About</a>
             <a href="#">Projects</a>
             <a href="#">Contacts</a>
@@ -19,6 +19,7 @@ function Header(props){
 const Head=styled.section`
 width:100%;
 background-color:black;
+
 `;
 const Menu=styled.div`
 display:flex;

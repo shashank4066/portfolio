@@ -6,9 +6,9 @@ function Projects(){
             <h2>My Recent Work</h2></Heading>
             <Subheading>Here are some of the projects i've Worked on.</Subheading>
             <Card>
-                <Carda><h3>Website1</h3><p>A good website</p></Carda>
-                <Cardb><h3>Website1</h3></Cardb>
-                <Cardc><h3>Website1</h3></Cardc>
+                <Carda><h3></h3><p></p></Carda>
+                <Cardb><h3></h3><p></p></Cardb>
+                <Cardc><h3></h3><p></p></Cardc>
             </Card>
         </SProjects>
     );
@@ -33,21 +33,50 @@ margin-top:50px;
 const Carda=styled.div`
 border:1px solid black;
 width:33.33% ;
+height:200px;
 margin:10px 20px;
 display:flex;
 flex-direction:column;
 align-items:center;
 justify-content:center;
 min-width:300px;
+background-image: url('1.png');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+h3{
+    color:white;
+}
+:hover{
+    cursor:poiner;
+}
 `;
 const Cardb=styled.div`
 border:1px solid black;
 width:33.3%;
 margin:10px 20px;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+min-width:300px;
+background-image: url('2.png');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 `;
 const Cardc=styled.div`
 border:1px solid black;
 width:33.3%;
 margin:10px 20px;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+min-width:300px;
+background-image: url('3.png');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 `;
 export default Projects;

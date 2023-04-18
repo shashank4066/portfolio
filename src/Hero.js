@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 function Hero(props){
     return(
+
         <LeftColumn>
             <Left>
                 <h2>Hello I'm,</h2>
@@ -9,9 +10,12 @@ function Hero(props){
             <Right src='image1.png'>
             </Right>
         </LeftColumn>
+        
     );
 }
+
 const LeftColumn=styled.section`
+
 width:100%;
 background-color:black;
 height:100vh;
