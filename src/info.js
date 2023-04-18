@@ -1,5 +1,5 @@
 import styled from "styled-components";
-function top(props){
+function Info(props){
     return(
         <Heading>
             <h2>Hi, I’m Shashank. Nice to meet you.</h2>
@@ -39,4 +39,4 @@ p{
     font;weight:400;
 }
 `;
-export default top;
+export default Info;

@@ -1,24 +1,18 @@
 import styled from "styled-components";
-import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import About from "./About";
-function header(props){
+function Header(props){
     return(
-        <BrowserRouter>
-        <Routes>
-    <Head>
-        <Logo>
-            <img src="./images/logo2.png" alt=""/>
-        </Logo>
-        <Menu>
-            <Link path="/" element={<Header/>}>Home </Link>
-            <Link path="/About" element={<About/>}>About Me </Link>
-            <a>My Projects </a>
-            <a>Contact </a>
-        </Menu>
-        </Head>
-        </Routes>
-        </BrowserRouter>
+        
+        <Head>
+            <Logo>
+            <img src="/logo12.png" alt=""/>
+            </Logo>
+            <Menu>
+            <a href="info.js">Home</a>
+            <a href="#">About</a>
+            <a href="#">Projects</a>
+            <a href="#">Contacts</a>
+            </Menu>
+            </Head>
     );
 }
 
@@ -47,7 +41,8 @@ a:hover{
 }
 `; 
 const Logo=styled.image`
-width:100%;
+width:50%;
+max-width:50px;
 `;
 const Hero=styled.div``;
-export default header;
+export default Header;

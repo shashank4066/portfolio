@@ -1,7 +1,7 @@
 import styled from "styled-components";
-function SProjects(){
+function Projects(){
     return(
-        <Projects>
+        <SProjects>
             <Heading>
             <h2>My Recent Work</h2></Heading>
             <Subheading>Here are some of the projects i've Worked on.</Subheading>
@@ -10,10 +10,10 @@ function SProjects(){
                 <Cardb><h3>Website1</h3></Cardb>
                 <Cardc><h3>Website1</h3></Cardc>
             </Card>
-        </Projects>
+        </SProjects>
     );
 }
-const Projects=styled.section`
+const SProjects=styled.section`
 display:flex;
 flex-direction:column;
 justify-content:center;
@@ -50,4 +50,4 @@ border:1px solid black;
 width:33.3%;
 margin:10px 20px;
 `;
-export default SProjects;
+export default Projects;
