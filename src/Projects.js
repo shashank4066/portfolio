@@ -10,11 +10,17 @@ function Projects(){
                 <Cardb><h3></h3><p></p></Cardb>
                 <Cardc><h3></h3><p></p></Cardc>
             </Card>
+            <Card>
+                <Carda><h3></h3><p></p></Carda>
+                <Cardb><h3></h3><p></p></Cardb>
+                <Cardc><h3></h3><p></p></Cardc>
+            </Card>
         </SProjects>
     );
 }
 const SProjects=styled.section`
 display:flex;
+
 flex-direction:column;
 justify-content:center;
 align-items:center;
@@ -24,6 +30,7 @@ const Heading=styled.div``;
 const Subheading=styled.div``;
 const Card=styled.div`
 display:flex;
+flex-wrap:wrap;
 flex-direction:row;
 padding-left:40px;
 padding-right:40px;
@@ -32,7 +39,8 @@ margin-top:50px;
 `;
 const Carda=styled.div`
 border:1px solid black;
-width:33.33% ;
+
+width:25% ;
 height:200px;
 margin:10px 20px;
 display:flex;
@@ -53,7 +61,7 @@ h3{
 `;
 const Cardb=styled.div`
 border:1px solid black;
-width:33.3%;
+width:25%;
 margin:10px 20px;
 display:flex;
 flex-direction:column;
@@ -67,9 +75,10 @@ background-repeat: no-repeat;
 `;
 const Cardc=styled.div`
 border:1px solid black;
-width:33.3%;
+width:25%;
 margin:10px 20px;
 display:flex;
+flex-wrap:wrap;
 flex-direction:column;
 align-items:center;
 justify-content:center;

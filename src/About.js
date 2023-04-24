@@ -1,10 +1,11 @@
 import styled from "styled-components";
+
 function About(props){
     return(
         <Section>
             <Heading>
-                
             </Heading>
+            
             <Card>
             <One>
                 <h2>Designer</h2>
@@ -38,6 +39,7 @@ function About(props){
 
 const Heading=styled.h1`
 display:flex;
+flex-wrap:wrap;
 justify-content:center;
 font-size:46px;
 color:red;
@@ -48,6 +50,8 @@ color:red;
 `;
 const Card=styled.section`
 display:flex;
+flex-wrap:wrap;
+
 align-items:center;
 justify-content:center;
 padding-left:40px;
@@ -67,11 +71,13 @@ const Section=styled.section``;
 const One=styled.section`
 
 display:flex;
+flex-wrap:wrap;
+min-width:300px;
 flex-direction:column;
 align-items:center;
 justify-content:center;
 border:1px solid #E6ECF8;
-width:33.3% !important;
+width:30% !important;
 background-color:white;
 padding-top:50px;
 border-top-left-radius: 10px;
@@ -86,11 +92,13 @@ img{
 `;
 const Two=styled.section`
 display:flex;
+flex-wrap:wrap;
+min-width:300px;
 flex-direction:column;
 align-items:center;
 justify-content:center;
 border:1px solid #E6ECF8;
-width:33.3% !important;
+width:30% !important;
 background-color:white;
 padding-top:50px;
 img{
@@ -102,11 +110,13 @@ img{
 }`;
 const Three=styled.section`
 display:flex;
+flex-wrap:wrap;
+min-width:300px;
 flex-direction:column;
 align-items:center;
 justify-content:center;
 border:1px solid #E6ECF8;
-width:33.3% !important;
+width:30% !important;
 background-color:white;
 padding-top:50px;
 border-top-right-radius: 10px;

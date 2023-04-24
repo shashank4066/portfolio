@@ -21,6 +21,7 @@ background-color:black;
 height:100vh;
 padding:0;
 display:flex;
+
 flex-direction:row;
 overflow-x:hidden;
 overflow-y:hidden;
@@ -29,6 +30,7 @@ const Left=styled.h2`
 color:white;
 font-weight:bold;
 display:flex;
+
 flex-direction:column;
 width:100%;
 margin:0;
@@ -64,6 +66,7 @@ span{
 const Change=styled.div`
 color:white;
 display:flex;
+
 flex-direction:row;
 h3{
     font-size:25px;
@@ -76,5 +79,8 @@ max-width:200px;
 justify-content:flex-end;
 max-width:700px;
 margin-right:5%;
+@media screen and (max-width: 768px) {
+    display:none
+}
 `;
 export default Hero;
