@@ -1,6 +1,8 @@
 import styled from "styled-components";
+import Header from "./header";
 function Info(props){
     return(
+        <>
         <Heading>
             <h2>Hi, I’m Shashank. Nice to meet you.</h2>
             <p>I'm currently a student, but my interest in web development
@@ -11,6 +13,7 @@ function Info(props){
                 and deliver top-notch results.
             </p>
         </Heading>
+        </>
     );
 }
 const Heading=styled.section`

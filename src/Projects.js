@@ -6,7 +6,7 @@ function Projects(){
             <h2>My Recent Work</h2></Heading>
             <Subheading>Here are some of the projects i've Worked on.</Subheading>
             <Card>
-                <Carda><h3></h3><p></p></Carda>
+                <Carda src="./image1.png"/>
                 <Cardb><h3></h3><p></p></Cardb>
                 <Cardc><h3></h3><p></p></Cardc>
             </Card>
@@ -18,6 +18,7 @@ function Projects(){
         </SProjects>
     );
 }
+
 const SProjects=styled.section`
 display:flex;
 

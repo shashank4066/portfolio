@@ -8,10 +8,10 @@ function Header(props){
             <img src="/logo12.png" alt=""/>
             </Logo>
             <Menu>
-            <Link to="/AboutPage.js">Home</Link>
-            <Link to="AboutPage.js">About</Link>
+            <Link to="/">Home</Link>
+            <a href="./about">About</a>
             <a href="/projects">Projects</a>
-            <a href="#">Contact</a>
+            <a href="./contact">Contact</a>
             </Menu>
             </Head>
     );

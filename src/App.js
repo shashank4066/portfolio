@@ -6,7 +6,6 @@ import Info from './info';
 import Hero from './Hero';
 import Projects from './Projects';
 import Footer from './Footer';
-import AboutPage from './AboutPage'
 import ContactForm from "./Contact";
 function App() {
   return (
@@ -14,9 +13,9 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Header/>}/>
-        <Route path="/AboutPage" element={<AboutPage/>}/>
+        <Route path="/About" element={<Info/>}/>
         <Route path="/Projects" element={<Projects/>}/>
-        <Route path="/Footer" element={<Footer/>}/>
+        <Route path="/Contact" element={<ContactForm/>}/>
       </Routes>
       </BrowserRouter>
       <Hero/>
