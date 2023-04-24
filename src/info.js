@@ -20,12 +20,14 @@ margin-top:-30px;
 padding:0;
 diplay:flex;
 flex:direction:column;
+flex-wrap:wrap;
 justify-content:center;
 align-items:center;
 padding-top:50px;
 h2{
     display:flex;
     justify-content:center;
+    
     padding-top:100px;
     font-size:40px;
 }
