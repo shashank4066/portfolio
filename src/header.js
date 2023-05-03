@@ -9,8 +9,8 @@ function Header(props){
             </Logo>
             <Menu>
             <Link to="/">Home</Link>
-            <a href="./about">About</a>
-            <a href="/projects">Projects</a>
+            <Link to="./about">About</Link>
+            <a href="./projects">Projects</a>
             <a href="./contact">Contact</a>
             </Menu>
             </Head>

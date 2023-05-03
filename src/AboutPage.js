@@ -1,8 +1,13 @@
 import styled from "styled-components";
+import Header from "./header";
+import Info from "./info";
+import Footer from "./Footer";
 function Page(){
     return(
         <Data>
-            hii
+            <Header/>
+            <Info/>
+            <Footer/>
         </Data>
     );
 }
